@@ -46,6 +46,8 @@ public class SeleniumOpenMethodTest {
 
         //close(quite) driver
         driver.quit();
+        System.out.println("hello");
+        System.out.println("world");
 
 
     }
@@ -77,6 +79,7 @@ public class SeleniumOpenMethodTest {
 
         //close(quite) driver
         driver.quit();
+        System.out.println("helllo");
 
     }
 

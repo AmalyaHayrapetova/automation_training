@@ -15,7 +15,7 @@ public class SeleniumFindElementTest {
     @Test
     public void clickOnElement() {
 
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriverMac");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriverWin.exe");
 
         //init chrome driver
         driver = new ChromeDriver();
@@ -45,7 +45,7 @@ public class SeleniumFindElementTest {
 
 
         //close(quite) driver
-        driver.quit();
+        //driver.quit();
 
 
     }
