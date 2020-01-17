@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups Automation">
+    <test name="Include Regression Defect Groups Test">
+        <groups>
+            <run>
+                <include name="regression"/>
+                <exclude name="sanity"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="classtwo.GroupsTest"/>
+        </classes>
+    </test> <!-- All Groups Test -->
+</suite> <!-- Test Automation Suite -->

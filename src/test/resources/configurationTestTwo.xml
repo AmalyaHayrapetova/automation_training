@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Automation Training - ClassOne" >
+    <test name = "Configuration Annotation Test - Part One">
+        <classes>
+            <class name = "classone.ConfigurationAnnotationTest">
+                <methods>
+                    <include name = "searchCustomer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "Configuration Annotation Test - Part Two">
+        <classes>
+            <class name = "classone.ConfigurationAnnotationTest">
+                <methods>
+                    <include name = "searchProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
