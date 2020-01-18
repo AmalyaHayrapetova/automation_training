@@ -47,7 +47,7 @@ public class SeleniumFindElementTest {
         //close(quite) driver
         //driver.quit();
 
-        System.out.println("hello");
+
     }
 
 
